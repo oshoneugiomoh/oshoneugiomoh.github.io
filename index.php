@@ -1,6 +1,21 @@
-<!DOCTYPE html>
+
 <html lang="en-us">
   <head>
+    <?php
+$servername = "localhost";
+$username = "oshoneugiomoh";
+$password = "inspiron1545";</p>
+
+ Create connection
+$conn = new mysqli($localost, $oshoneugiomoh, $inspiron1545);
+
+ Check connection
+if ($conn-&gt;connect_error) {
+    die("Connection failed: " . $conn-&gt;connect_error);
+} 
+echo "Connected successfully";
+?>
+<!DOCTYPE html>
     <meta charset="UTF-8">
     <title>Oshoneugiomoh.GitHub.io by oshoneugiomoh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,20 +31,7 @@
     </section>
 
     <section class="main-content">
-      <p>&lt;?php
-$servername = "localhost";
-$username = "oshoneugiomoh";
-$password = "inspiron1545";</p>
-
-<p>// Create connection
-$conn = new mysqli($localost, $oshoneugiomoh, $inspiron1545);</p>
-
-<p>// Check connection
-if ($conn-&gt;connect_error) {
-    die("Connection failed: " . $conn-&gt;connect_error);
-} 
-echo "Connected successfully";
-?&gt;</p>
+      
 
       <footer class="site-footer">
 

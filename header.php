@@ -4,7 +4,7 @@ $username = "oshoneugiomoh";
 $password = "inspiron1545";</p>
 
 <p>// Create connection
-$conn = new mysqli($localost, $oshoneugiomoh, $inspiron1545);</p>
+$conn = new mysqli();</p>
 
 <p>// Check connection
 if ($conn-&gt;connect_error) {
